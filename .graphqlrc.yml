@@ -1,0 +1,6 @@
+schema : prisma/prisma.yml
+extensions : 
+  codegen :
+    generates : 
+      src/generated/prisma.graphql :        
+          - schema-ast        

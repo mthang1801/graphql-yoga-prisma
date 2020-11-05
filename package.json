@@ -1,0 +1,33 @@
+{
+  "name": "graphql-yoga-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "prisma-binding": "^2.3.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "@graphql-codegen/cli": "^1.19.0",
+    "@graphql-codegen/schema-ast": "^1.17.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src --exec babel-node",
+    "generate": "graphql-codegen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mthang1801/graphql-yoga-prisma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mthang1801/graphql-yoga-prisma/issues"
+  },
+  "homepage": "https://github.com/mthang1801/graphql-yoga-prisma#readme"
+}
